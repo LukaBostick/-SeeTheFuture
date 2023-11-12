@@ -1,0 +1,270 @@
+<?php
+$db = new mysqli("localhost", "peterwin", "password", "library");
+// fictitious database connect function
+// Check connection
+if ($db->connect_errno) {
+die("Connect Error (" . $db->connect_errno . ") " . $db-
+>connect_error);
+}
+$sql = "SELECT * FROM books WHERE available = 1 ORDER BY title";
+$result = $db->query($sql);
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+margin-left: auto;
+margin-right: auto;
+border-collapse: collapse;
+}
+th, td {
+padding: 6px;
+border: 1px solid black;
+}
+th {
+text-align: center;
+}
+</style>
+</head>
+<body>
+<table>
+<tr>
+<td colspan="3">
+<h3 align="center">These Books are currently available</h3>
+</td>
+</tr>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/Articles-Cards-images.css">
+    <style>
+        /* Add your custom styles here */
+
+        .waves {
+            position: relative;
+            width: 100%;
+            height: 15vh;
+            margin-bottom: -7px; /* Fix for safari gap */
+            min-height: 100px;
+            max-height: 150px;
+        }
+
+
+        /* Animation */
+        .parallax > use {
+            animation: move-forever 25s cubic-bezier(.55, .5, .45, .5) infinite;
+        }
+
+        .parallax > use:nth-child(1) {
+            animation-delay: -2s;
+            animation-duration: 7s;
+        }
+
+        .parallax > use:nth-child(2) {
+            animation-delay: -3s;
+            animation-duration: 10s;
+        }
+
+        .parallax > use:nth-child(3) {
+            animation-delay: -4s;
+            animation-duration: 13s;
+        }
+
+        .parallax > use:nth-child(4) {
+            animation-delay: -5s;
+            animation-duration: 20s;
+        }
+
+        @keyframes move-forever {
+            0% {
+                transform: translate3d(-90px, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(85px, 0, 0);
+            }
+        }
+
+        /* Shrinking for mobile */
+        @media (max-width: 768px) {
+            .waves {
+                height: 40px;
+                min-height: 40px;
+            }
+
+            .content {
+                height: 30vh;
+            }
+
+            h1 {
+                font-size: 24px;
+            }
+        }
+        body {
+            margin: 0;
+            background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+        }
+
+        h1 {
+            font-family: 'Lato', sans-serif;
+            font-weight: 300;
+            letter-spacing: 2px;
+            font-size: 48px;
+        }
+
+        p {
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 1px;
+            font-size: 14px;
+            color: #333333;
+        }
+        .section{
+            background: linear-gradient(60deg, rgba(84, 58, 183, 1) 0%, rgba(0, 172, 193, 1) 100%);
+        }
+
+        .masthead {
+            position: relative;
+            text-align: center;
+            background: linear-gradient(137deg, #0066ff, #ff6b00 95%);
+            height: 0px;
+            padding: 56px 0px;
+        }
+
+        .container {
+            width: 100%;
+            padding-right: 15px;
+            padding-left: 15px;
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        .row {
+            --bs-gutter-x: 0;
+            margin-right: calc(var(--bs-gutter-x) * -1);
+            margin-left: calc(var(--bs-gutter-x) * -1);
+        }
+
+        .col-xl-9 {
+            flex: 0 0 75%;
+            max-width: 75%;
+        }
+
+        .inner-header {
+            height: 65vh;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        .features-icons{
+            background:( #0066ff );
+        }
+        .content {
+            position: relative;
+            height: 20vh;
+            text-align: center;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="text-center text-white masthead">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-9 mx-auto position-relative">
+                    <h1 class="mb-5" style="font-size: 33px; margin: -40px; font-family: Lato, sans-serif;">Apple Inc. ($AAPL)</h1>
+                    <h1 style="margin-top: -41px; height: 54.6px; font-size: 27px; font-style: italic; font-family: Lato, sans-serif; color: rgba(255,255,255,0.9);">Industry : Tech</h1>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="text-center bg-light features-icons" style="font-family: Lato, sans-serif;">
+       <div class="row mb-5">
+                <div class="col-md-8 col-xl-6 text-center mx-auto">
+                    <h2>Scores</h2>
+                    <p class="w-lg-50" style="font-size: 26px;">Today Score : ___</p>
+                    <p class="w-lg-50" style="font-size: 26px;">Prediction Score : ___</p>
+                    <p class="w-lg-50" style="font-size: 26px;">Recommendation</p>
+                </div>
+            </div>
+            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <div class="card-body p-4">
+                            <p class="text-primary card-text mb-0"></p>
+                            <h4 class="card-title">1</h4>
+                            <p class="card-text"></p>
+                            <div class="d-flex">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <div class="card-body p-4">
+                            <p class="text-primary card-text mb-0"></p>
+                            <h4 class="card-title">2</h4>
+                            <p class="card-text"></p>
+                            <div class="d-flex">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
+                        <div class="card-body p-4">
+                            <p class="text-primary card-text mb-0"></p>
+                            <h4 class="card-title">3</h4>
+                            <p class="card-text"></p>
+                            <div class="d-flex">
+                                <div></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="showcase"></section>
+<script src="assets/bootstrap/css/bootstrap.min.css"></script>
+    <script src="assets/js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script>
+        (function($) {
+            $.fn.counter = function(options) {
+                // Counter logic
+            };
+        }(jQuery));
+
+        // Add your remaining JavaScript code here
+        $('#score-counter').counter({
+            start: 0,
+            end: 1483,
+            duration: 4000
+        });
+
+        $(document).ready(function() {
+            $('.score-graph').each(function() {
+                $(this).find('.score-graph-bar').animate({
+                    width: $(this).attr('data-percent')
+                }, 4000);
+            });
+        });
+    </script>
+</body>
+
+</html>
