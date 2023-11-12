@@ -242,7 +242,7 @@
         <h2 id="h2center"> Ahead in Stocks, Ahead in Life – Predict with <i>$see</i>!</h2>
         
         
-        <button> <a href="https://animated-space-invention-q66gxqqpvwg249jp-8001.app.github.dev/auto" id="topRightButton">Autommate Your Stocks </a></button>
+        <button> <a href="https://animated-space-invention-q66gxqqpvwg249jp-8000.app.github.dev/auto" id="topRightButton">Autommate Your Stocks </a></button>
 
 
         
@@ -483,8 +483,8 @@ menu button span.offset-10 {margin-top: -10px}
         <body>
   <form class="search-container">
     <input type="text" id="search-bar" placeholder="Start Typing Company Name">
-    <div id="searchResults"></div>
-    <a href="#"><img class="search-icon" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-3/3/70-512.png">
+    
+    <a href="https://animated-space-invention-q66gxqqpvwg249jp-8000.app.github.dev/stock"><img class="search-icon" src="https://cdn0.iconfinder.com/data/icons/social-messaging-ui-color-shapes-3/3/70-512.png">
         <menu>
             <li class="no">
                 <button onclick="redirectToURL()">

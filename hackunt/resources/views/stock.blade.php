@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -167,7 +166,7 @@
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
                         <div class="card-body p-4">
                             <p class="text-primary card-text mb-0"></p>
-                            <h4 class="card-title">1</h4>
+                            <a href = "https://www.insidermonkey.com/blog/goldman-sachs-bdc-inc-nysegsbd-q3-2023-earnings-call-transcript-1220173/" ><h4 class="card-title">Goldman Sachs BDC, Inc. (NYSE:GSBD) Q3 2023 Earnings Call Transcript</h4>
                             <p class="card-text"></p>
                             <div class="d-flex">
                                 <div></div>
@@ -179,7 +178,7 @@
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
                         <div class="card-body p-4">
                             <p class="text-primary card-text mb-0"></p>
-                            <h4 class="card-title">2</h4>
+                            <a href = "https://finance.yahoo.com/news/goldmans-consumer-retreat-isnt-over-151159789.html"><h4 class="card-title">Goldman’s consumer retreat isn’t over</h4>
                             <p class="card-text"></p>
                             <div class="d-flex">
                                 <div></div>
@@ -191,7 +190,7 @@
                     <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
                         <div class="card-body p-4">
                             <p class="text-primary card-text mb-0"></p>
-                            <h4 class="card-title">3</h4>
+                            <a href = "https://www.youtube.com/watch?v=2Ux0M8_R2-k&ab_channel=CNBCTelevision"><h4 class="card-title">Inflation is now at a place that would allow the Fed to cut rates, says Goldman Sachs' Jan Hatzius</h4>
                             <p class="card-text"></p>
                             <div class="d-flex">
                                 <div></div>
