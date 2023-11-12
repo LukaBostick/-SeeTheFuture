@@ -158,50 +158,24 @@
                     <h2>Scores</h2>
                     <p class="w-lg-50" style="font-size: 26px;">Today Score : 325.51 </p>
                     <p class="w-lg-50" style="font-size: 26px;">Prediction Score : 320.78 </p>
-                    <p class="w-lg-50" style="font-size: 26px;">Recommendation</p>
+                    <p class="w-lg-50" style="font-size: 26px;">3 latest news corelated to $GS:</p>
+                    <a href="https://www.insidermonkey.com/blog/goldman-sachs-bdc-inc-nysegsbd-q3-2023-earnings-call-transcript-1220173/"><p class="w-lg-50" style="font-size: 26px;">1) Goldman Sachs BDC, Inc. (NYSE:GSBD) Q3 2023 Earnings Call Transcript</p>
+                    <a href="https://finance.yahoo.com/news/goldmans-consumer-retreat-isnt-over-151159789.html"><p class="w-lg-50" style="font-size: 26px;">2) Goldman’s consumer retreat isn’t over</p>
+                    <a href="https://www.youtube.com/watch?v=2Ux0M8_R2-k&ab_channel=CNBCTelevision"><p class="w-lg-50" style="font-size: 26px;">3) Inflation is now at a place that would allow the Fed to cut rates, says Goldman Sachs' Jan Hatzius</p>
+                    
+
                 </div>
             </div>
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-xl-3">
-                <div class="col">
-                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
-                        <div class="card-body p-4">
-                            <p class="text-primary card-text mb-0"></p>
-                            <a href = "https://www.insidermonkey.com/blog/goldman-sachs-bdc-inc-nysegsbd-q3-2023-earnings-call-transcript-1220173/" ><h4 class="card-title">Goldman Sachs BDC, Inc. (NYSE:GSBD) Q3 2023 Earnings Call Transcript</h4>
-                            <p class="card-text"></p>
-                            <div class="d-flex">
-                                <div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
-                        <div class="card-body p-4">
-                            <p class="text-primary card-text mb-0"></p>
-                            <a href = "https://finance.yahoo.com/news/goldmans-consumer-retreat-isnt-over-151159789.html"><h4 class="card-title">Goldman’s consumer retreat isn’t over</h4>
-                            <p class="card-text"></p>
-                            <div class="d-flex">
-                                <div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card"><img class="card-img-top w-100 d-block fit-cover" style="height: 130px;" src="https://cdn.bootstrapstudio.io/placeholders/1400x800.png">
-                        <div class="card-body p-4">
-                            <p class="text-primary card-text mb-0"></p>
-                            <a href = "https://www.youtube.com/watch?v=2Ux0M8_R2-k&ab_channel=CNBCTelevision"><h4 class="card-title">Inflation is now at a place that would allow the Fed to cut rates, says Goldman Sachs' Jan Hatzius</h4>
-                            <p class="card-text"></p>
-                            <div class="d-flex">
-                                <div></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+            
             </div>
         </div>
     </section>
     <section class="showcase"></section>
+    
+
+<!-- Add this PNG to the bottom of the page -->
+<img src="/views/img/GRAPH.png" alt="Graph Image" style="width: 100%; height: auto; max-width: 100%; max-height: 100vh;">
+
 <script src="assets/bootstrap/css/bootstrap.min.css"></script>
     <script src="assets/js/main.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
@@ -230,4 +204,4 @@
     </script>
 </body>
 
-</html>
+</html>/
