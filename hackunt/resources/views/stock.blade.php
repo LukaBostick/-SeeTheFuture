@@ -163,6 +163,8 @@
                     <a href="https://finance.yahoo.com/news/goldmans-consumer-retreat-isnt-over-151159789.html"><p class="w-lg-50" style="font-size: 26px;">2) Goldman’s consumer retreat isn’t over</p>
                     <a href="https://www.youtube.com/watch?v=2Ux0M8_R2-k&ab_channel=CNBCTelevision"><p class="w-lg-50" style="font-size: 26px;">3) Inflation is now at a place that would allow the Fed to cut rates, says Goldman Sachs' Jan Hatzius</p>
                     
+                        <img src="GRAPH.png" alt="Graph Image" style="width: 100%; height: auto;">
+
 
                 </div>
             </div>
@@ -174,7 +176,7 @@
     
 
 <!-- Add this PNG to the bottom of the page -->
-<img src="/views/img/GRAPH.png" alt="Graph Image" style="width: 100%; height: auto; max-width: 100%; max-height: 100vh;">
+
 
 <script src="assets/bootstrap/css/bootstrap.min.css"></script>
     <script src="assets/js/main.js"></script>
