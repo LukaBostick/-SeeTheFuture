@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.investing.com/equities/apple-computer-inc-historical-data'
+url = 'https://www.investing.com/equities/goldman-sachs-group-historical-data'
 payload = {'flex-1': 'Monthly'}
 page = requests.get(url, params=payload)
 

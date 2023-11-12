@@ -1,39 +1,3 @@
-<?php
-$db = new mysqli("localhost", "peterwin", "password", "library");
-// fictitious database connect function
-// Check connection
-if ($db->connect_errno) {
-die("Connect Error (" . $db->connect_errno . ") " . $db-
->connect_error);
-}
-$sql = "SELECT * FROM books WHERE available = 1 ORDER BY title";
-$result = $db->query($sql);
-?>
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-table {
-margin-left: auto;
-margin-right: auto;
-border-collapse: collapse;
-}
-th, td {
-padding: 6px;
-border: 1px solid black;
-}
-th {
-text-align: center;
-}
-</style>
-</head>
-<body>
-<table>
-<tr>
-<td colspan="3">
-<h3 align="center">These Books are currently available</h3>
-</td>
-</tr>
 
 
 <!DOCTYPE html>
@@ -183,8 +147,8 @@ text-align: center;
         <div class="container">
             <div class="row">
                 <div class="col-xl-9 mx-auto position-relative">
-                    <h1 class="mb-5" style="font-size: 33px; margin: -40px; font-family: Lato, sans-serif;">Apple Inc. ($AAPL)</h1>
-                    <h1 style="margin-top: -41px; height: 54.6px; font-size: 27px; font-style: italic; font-family: Lato, sans-serif; color: rgba(255,255,255,0.9);">Industry : Tech</h1>
+                    <h1 class="mb-5" style="font-size: 33px; margin: -40px; font-family: Lato, sans-serif;">Goldman Sachs Group Inc (GS)</h1>
+                    <h1 style="margin-top: -41px; height: 54.6px; font-size: 27px; font-style: italic; font-family: Lato, sans-serif; color: rgba(255,255,255,0.9);">Industry : Banking</h1>
                 </div>
             </div>
         </div>
@@ -193,8 +157,8 @@ text-align: center;
        <div class="row mb-5">
                 <div class="col-md-8 col-xl-6 text-center mx-auto">
                     <h2>Scores</h2>
-                    <p class="w-lg-50" style="font-size: 26px;">Today Score : ___</p>
-                    <p class="w-lg-50" style="font-size: 26px;">Prediction Score : ___</p>
+                    <p class="w-lg-50" style="font-size: 26px;">Today Score : 325.51 </p>
+                    <p class="w-lg-50" style="font-size: 26px;">Prediction Score : 320.78 </p>
                     <p class="w-lg-50" style="font-size: 26px;">Recommendation</p>
                 </div>
             </div>
